@@ -1,10 +1,13 @@
 {
+  "homepage": "https://srira-amirishetty.github.io/tic-tac-toe-react-project",
   "name": "react-essentials-deep-dive-adv",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
